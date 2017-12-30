@@ -1,5 +1,5 @@
-import RCTLine from "./src/native_module/RCTLine";
-import VRLine from "./src/line/VRLine";
+import RCTLine from "./native_module/RCTLine";
+import VRLine from "./line/VRLine";
 
 export {
     RCTLine, VRLine

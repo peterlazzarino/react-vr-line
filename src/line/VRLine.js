@@ -1,8 +1,8 @@
 import React from "react";
 import createReactClass from "create-react-class";
-import NativeMethodsMixin from 'NativeMethodsMixin';
+import NativeMethodsMixin from 'react';
 import PropTypes from 'prop-types';
-import StyleSheetPropType from 'StyleSheetPropType';
+import StyleSheetPropType from 'react-native/Libraries/StyleSheet/StyleSheetPropType'
 import LayoutAndTransformPropTypes from 'LayoutAndTransformPropTypes';
 import ReactNativeViewAttributes from 'ReactNativeViewAttributes';
 import { requireNativeComponent } from 'react-native'; 
