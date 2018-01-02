@@ -5,11 +5,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.VRLine = exports.RCTLine = undefined;
 
-var _RCTLine = require("./src/native_module/RCTLine");
+var _RCTLine = require("./native_module/RCTLine");
 
 var _RCTLine2 = _interopRequireDefault(_RCTLine);
 
-var _VRLine = require("./src/line/VRLine");
+var _VRLine = require("./line/VRLine");
 
 var _VRLine2 = _interopRequireDefault(_VRLine);
 
