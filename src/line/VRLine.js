@@ -1,10 +1,8 @@
 import React from "react";
 import createReactClass from "create-react-class";
-import NativeMethodsMixin from 'NativeMethodsMixin';
+import NativeMethodsMixin from 'react-native/Libraries/Renderer/shims';
 import PropTypes from 'prop-types';
-import StyleSheetPropType from 'StyleSheetPropType';
-import LayoutAndTransformPropTypes from 'LayoutAndTransformPropTypes';
-import ReactNativeViewAttributes from 'ReactNativeViewAttributes';
+import ReactNativeViewAttributes from 'react-native/Libraries/Components/View/ReactNativeViewAttributes';
 import { requireNativeComponent } from 'react-native'; 
 import {
     View
@@ -18,7 +16,6 @@ const VRLineComponent = createReactClass({
     mixins: [NativeMethodsMixin],
     propTypes: {
       ...View.propTypes,
-      style: StyleSheetPropType(LayoutAndTransformPropTypes),
       vertices: PropTypes.array,
       color: PropTypes.string
     },
