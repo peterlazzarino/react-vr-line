@@ -1,6 +1,6 @@
 import React from "react";
 import createReactClass from "create-react-class";
-import NativeMethodsMixin from 'react-native/Libraries/Renderer/shims';
+import NativeMethodsMixin from 'react-native/Libraries/Renderer/shims/NativeMethodsMixin';
 import PropTypes from 'prop-types';
 import ReactNativeViewAttributes from 'react-native/Libraries/Components/View/ReactNativeViewAttributes';
 import { requireNativeComponent } from 'react-native'; 
